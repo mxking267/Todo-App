@@ -1,0 +1,142 @@
+.information{
+    background-color: #fff;
+    height: 100%;
+    border-radius: 30px;
+    flex-basis: 25%;
+    padding: 20px;
+}
+
+.select{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    background-color:#F2F6FE;
+    border-radius: 25px;
+}
+
+.select h4{
+    font-weight: normal;
+    margin: 0;
+    width: 100%;
+    opacity: 0.75;
+    padding: 10px 20px;
+}
+
+.select h3{
+    padding: 0 20px 15px;
+    margin: 0;
+}
+
+.userSecretIcon{
+        font-size: 24px;
+        padding: 15px 20px;
+        background-color: orange;
+        fill: #fff;
+        color: #fff;
+        border-radius: 50%;
+        margin: auto;
+}
+
+.pieChartWrapper{
+    width: fit-content;
+    padding: 30px;
+    background-color: #f1ecff;
+    border-radius: 50%;
+}
+
+.pieChart::before,
+.pieChart::after{
+    display: block;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+.pieChart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.pieChart::before{
+    inset: 0;
+    background: radial-gradient(farthest-side, #6e4acf 100%, transparent) 
+    top/10px 10px no-repeat,
+    conic-gradient(#6e4acf 75%, #fff 0)
+}
+
+.pieChart::after{
+    inset: calc(50% - 5px);
+    background-color: #6e4acf;
+    transform: rotate(calc(75 * 3.6deg))
+    translateY(calc(50% - 100px));
+}
+
+.chartNumber{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 140px;
+    border: 20px solid #f1ecff;
+}
+.statistical{
+    max-width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.statistical .statisHeader{
+    width: 100%;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.infTitle{
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+    color: #747474;
+}
+
+.infWrapper{
+    width: 150px;
+    display: flex;
+    padding: 10px 10px;
+
+}
+
+.infStatisRow{
+    width: fit-content;
+    display: flex;
+}
+
+.square{
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 132, 255, 0.15);
+}
+
+.square h3{
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 10px 20px;
+}
+
+.square h3::before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 60%;
+    background-color: blue;
+    left: 10px;
+}

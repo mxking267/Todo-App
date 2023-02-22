@@ -1,0 +1,111 @@
+.content
+{   
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 15px;
+    padding: 0 20px 20px;
+
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+    margin-left: 15px;
+    height: fit-content;
+    border-radius: 30px;
+    flex-basis: 75%;
+    padding: 20px;
+    height: inherit;
+}
+
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header > h2
+{
+    margin-left: 20px;
+}
+
+.action
+{
+    justify-content: flex-end;
+}
+
+.slideIcon{
+    padding: 20px;
+}
+
+button{
+    border: none;
+    background-color: rgb(178, 113, 238);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.todoList{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.taskList{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+
+
+
+.item{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 20px 30px;
+    box-shadow: 1px 1px 20px 1px #e6e2e2;
+    max-width: 350px;
+    margin: 8px 0;
+}
+
+.title{
+    color: blue;
+    background-color:rgb(217 237 255);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.progressPercent{
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.progressBar{
+    height: 8px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #F0ECFB;
+}
+
+.progress{
+    border-radius: 10px;
+    height: 100%;
+    width: 50%;
+    background-color: #6c47ca;
+}
+
+.taskList h4{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 500;
+}
